@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer{
+    display: grid;
+    background-color: gray;
+    width: 65vw;
+    min-height: 90vh;
+    margin-top: 25px;
+    grid-template-rows: 3fr 1fr;
+}
+
+#photoContainer{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#submitContainer{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+#photoContainer, #submitContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo{
+    background-color: green;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photoScroll{
+    background-color: blueviolet;
+    width: 90%;
+    height: 10%;
+}
+
+#photo > img{
+    aspect-ratio: 16/9;
+    height: 100%;
+}
