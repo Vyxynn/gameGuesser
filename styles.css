@@ -32,10 +32,17 @@
     height: 100%;
 }
 
+#submitArea, #submitButton{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
 #photoContainer, #submitContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 #photo{
@@ -55,5 +62,25 @@
 
 #photo > img{
     aspect-ratio: 16/9;
-    height: 100%;
+    height: 350px;
+    
+}
+
+#photoScroll{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#leftButton, #rightButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+#button0, #button1, #button2, #button3, #button4{
+    color: red;
 }

@@ -11,11 +11,16 @@
         <div class="gameContainer">
             <div id="photoContainer">
                 <div id="photo"></div>
-                <div id="photoScroll"></div>
+                <div id="photoScroll">
+                    <button id="leftButton" onclick="changeImage('left')"><</button>
+                    <p><span id="button0">●</span><span id="button1">●</span><span id="button2">●</span><span id="button3">●</span><span id="button4">●</span></p>
+                    <button id="rightButton" onclick="changeImage('right')">></button>
+                </div>
             </div>
 
             <div id="submitContainer">
                 <input type="text" id="submitArea" name="submitArea" placeholder="Enter your guess...">
+                <button id="submitButton" name="submitButton" onclick="checkAnswer()">Submit</button>
             </div>
         </div>
     </div>
