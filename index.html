@@ -19,8 +19,24 @@
             </div>
 
             <div id="submitContainer">
+                <div class="rules">
+                    <div id="rulesHide">
+                        <p>Enter name of the game in the text box</p>
+                        <p>Results will be displayed on the right</p>
+                        <p>A new image is unlocked after every incorrect answer</p>
+                        <p>To switch images, click the arrows under the image</p>
+                        <p>Every unlocked hint lowers the score that you get for guessing the game</p>
+                    </div>
+                </div>
+
                 <input type="text" id="submitArea" name="submitArea" placeholder="Enter your guess...">
                 <button id="submitButton" name="submitButton" onclick="checkAnswer()">Submit</button>
+
+                <div class="feedback">
+                    <p id="guessFeedback"></p>
+                    <p>Last Game: <span id="lastGame">None</span></p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
             </div>
         </div>
     </div>
