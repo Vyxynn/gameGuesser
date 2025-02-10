@@ -52,19 +52,15 @@ let firstrun = true;
 
 //Only run when site loads
 function startGame(){
-    console.log('Game Started');
     chosenGame = rng(0, data.length-1);
-    console.log('Chosen Game:', data[chosenGame].name);
     unlockedHints = 0;
     availiableScore = 5;
-    console.log('Availiable Score:', availiableScore);
     
     updateScreen();
 }
 
 //Checks what button (left or right) is pressed, changes the image, then updates the screen
 function changeImage(side){
-    console.log(side);
     if(side === 'right'){
         if(currentImage < unlockedHints){
             currentImage++;
@@ -119,13 +115,9 @@ function checkAnswer(){
             answer = answer.replace(/:/gi, '');
             answer = answer.replace(/-/gi, '');
             answer = answer.replace(/'/gi, '');
-
-            console.log('Answer:', answer);
             
             //Look for the answer
             if(value == answer){
-                console.log('Correct');
-
                 lastGame.innerHTML = data[chosenGame].name[0];
                 lastGameCheck = data[chosenGame].name[0];
 
@@ -134,22 +126,16 @@ function checkAnswer(){
                 scoreContainer.innerHTML = totalScore;
 
                 inputArea.value = '';
-                console.log('Availiable Score:', availiableScore);
                 totalScore += availiableScore;
-                console.log('New Score:', totalScore);
                 chosenGame = rng(0, data.length-1);
 
                 while(lastGameCheck == data[chosenGame].name[0]){
                     chosenGame = rng(0, data.length-1);
-                    console.log('Rerolled');
                 }
 
-                console.log('Chosen Game:', data[chosenGame].name);
                 unlockedHints = 0;
                 currentImage = 0;
                 availiableScore = 5;
-
-                
 
                 updateScreen();
                 return;
@@ -157,16 +143,12 @@ function checkAnswer(){
             
         }
         //If the answer is not found in the names array, run the incorrect code
-        console.log('Incorrect');
-        console.log('Unlocked Hints:', unlockedHints);
         availiableScore--;
 
         guessFeedback.innerHTML = 'Incorrect';
         guessFeedback.style.color = 'red';
 
-        console.log('Availiable Score:', availiableScore);
         if(unlockedHints == 4){
-            console.log('Max hints');
             inputArea.value = '';
 
             lastGame.innerHTML = data[chosenGame].name[0];
@@ -174,12 +156,10 @@ function checkAnswer(){
 
             while(lastGame == data[chosenGame].name[0]){
                 chosenGame = rng(0, data.length-1);
-                console.log('Rerolled');
             }
 
 
             chosenGame = rng(0, data.length-1);
-            console.log('Chosen Game:', data[chosenGame].name);
             unlockedHints = 0;
             currentImage = 0;
             availiableScore = 5;
