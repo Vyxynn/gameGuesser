@@ -123,3 +123,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    justify-content: left;
+    padding-left: 15px;
+    display: hidden;
+    
+}
