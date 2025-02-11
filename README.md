@@ -23,22 +23,9 @@
     cd gameGuesser
     ```
 
-3. Install the required dependencies:
-
-    ```bash
-    npm install
-    ```
-
 ## Usage
 
-1. Start the game:
-
-    ```bash
-    npm start
-    ```
-
-2. Follow the on-screen instructions to play the game.
-
+1. Open the `index.html` file in your web browser.
 
 ## Contributing
 
@@ -47,3 +34,4 @@ We welcome contributions to `gameGuesser`! If you have an idea for a new feature
 ## License
 
 This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE.md) file for details.
+``` ▋
