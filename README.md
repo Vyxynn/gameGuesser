@@ -5,7 +5,7 @@
 ## Features
 
 - **Interactive Gameplay:** Users can enter guesses and receive feedback on whether it is correct or incorrect.
-- **Customizable Game Lists:** Add your own games to the data object in [script.js](script).
+- **Customizable Game Lists:** Add your own games to the data object in [script.js](script.js).
 - **Score Tracking:** Keep track of your score and see the last game you guessed.
 - **Game Images:** Each game has a 5 images that are displayed to help you guess the game.
 
@@ -46,4 +46,4 @@ We welcome contributions to `gameGuesser`! If you have an idea for a new feature
 
 ## License
 
-This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE.md) file for details.
