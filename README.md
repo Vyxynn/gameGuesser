@@ -5,7 +5,7 @@
 ## Features
 
 - **Interactive Gameplay:** Users can enter guesses and receive feedback on whether it is correct or incorrect.
-- **Customizable Game Lists:** Add your own games to the data object in [scripts.js](scripts).
+- **Customizable Game Lists:** Add your own games to the data object in [script.js](script).
 - **Score Tracking:** Keep track of your score and see the last game you guessed.
 - **Game Images:** Each game has a 5 images that are displayed to help you guess the game.
 
