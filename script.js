@@ -29,7 +29,12 @@ let data = [
     {name: ['The Legend of Zelda: A Link to the Past', 'Legend of Zelda: A Link to the Past', 'A Link to the Past', 'Link to the Past', 'LttP', 'TLoZ LttP'], image: ['./assets/games/lttp/image1.jpg', './assets/games/lttp/image2.jpg', './assets/games/lttp/image3.jpg', './assets/games/lttp/image4.jpg', './assets/games/lttp/image5.jpg']},
     {name: ['Persona 5'], image: ['./assets/games/persona5/image1.jpg', './assets/games/persona5/image2.jpg', './assets/games/persona5/image3.jpg', './assets/games/persona5/image4.jpg', './assets/games/persona5/image5.jpg']},
     {name: ['Bloodborne'], image: ['./assets/games/bloodborne/image1.jpg', './assets/games/bloodborne/image2.jpg', './assets/games/bloodborne/image3.jpg', './assets/games/bloodborne/image4.jpg', './assets/games/bloodborne/image5.jpg']},
-    {name: ['Hollow Knight'], image: ['./assets/games/hollowknight/image1.jpg', './assets/games/hollowknight/image2.jpg', './assets/games/hollowknight/image3.jpg', './assets/games/hollowknight/image4.jpg', './assets/games/hollowknight/image5.jpg']}
+    {name: ['Hollow Knight'], image: ['./assets/games/hollowknight/image1.jpg', './assets/games/hollowknight/image2.jpg', './assets/games/hollowknight/image3.jpg', './assets/games/hollowknight/image4.jpg', './assets/games/hollowknight/image5.jpg']},
+    {name: ['Overwatch', 'OW', 'Overwatch 2', 'Overwatch Two', 'OW2', 'OW Two'], image: ['./assets/games/ow/image1.jpg', './assets/games/ow/image2.jpg', './assets/games/ow/image3.jpg', './assets/games/ow/image4.jpg', './assets/games/ow/image5.jpg']},
+    {name: ['Minecraft: Story Mode', 'MC: Story Mode', 'MCSM'], image: ['./assets/games/mcsm/image1.jpg', './assets/games/mcsm/image2.jpg', './assets/games/mcsm/image3.jpg', './assets/games/mcsm/image4.jpg', './assets/games/mcsm/image5.jpg']},
+    {name: ['Super Smash Bros. Ultimate', 'Smash Ultimate', 'SMBU'], image: ['./assets/games/smbu/image1.jpg', './assets/games/smbu/image2.jpg', './assets/games/smbu/image3.jpg', './assets/games/smbu/image4.jpg', './assets/games/smbu/image5.jpg']},
+    {name: ['The Sims', 'Sims'], image: ['./assets/games/sims/image1.jpg', './assets/games/sims/image2.jpg', './assets/games/sims/image3.jpg', './assets/games/sims/image4.jpg', './assets/games/sims/image5.jpg']},
+    {name: ['EarthBound', 'Mother'], image: ['./assets/games/earthbound/image1.jpg', './assets/games/earthbound/image2.jpg', './assets/games/earthbound/image3.jpg', './assets/games/earthbound/image4.jpg', './assets/games/earthbound/image5.jpg']}
 ];
 
 const photo = document.getElementById('photo');
