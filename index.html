@@ -11,11 +11,23 @@
         <div class="gameContainer">
             <div id="photoContainer">
                 <div id="photo"></div>
-                <div id="photoScroll">
-                    <button id="leftButton" onclick="changeImage('left')"><</button>
-                    <p><span id="button0">●</span><span id="button1">●</span><span id="button2">●</span><span id="button3">●</span><span id="button4">●</span></p>
-                    <button id="rightButton" onclick="changeImage('right')">></button>
-                </div>
+                <div class="photoElements">
+                    
+                </div>  
+                <div id="photoDesc">
+                    <div class="guesses">
+                        <p>Remaining Guesses: <span id="guessesLeft">5</span></p>
+                    </div>
+
+                    <div class="scroll">
+                        <button id="leftButton" onclick="changeImage('left')"><</button>
+                        <p><span id="button0">●</span><span id="button1">●</span><span id="button2">●</span><span id="button3">●</span><span id="button4">●</span></p>
+                        <button id="rightButton" onclick="changeImage('right')">></button>
+                    </div>
+                    
+
+                    <div class="reset"><button id="reloadButton" name="reloadButton" onclick="updateScreen()">Reload Image</button></div>
+                </div>   
             </div>
 
             <div id="submitContainer">
@@ -29,9 +41,11 @@
                     </div>
                 </div>
 
-                <input type="text" id="submitArea" name="submitArea" placeholder="Enter your guess...">
-                <button id="submitButton" name="submitButton" onclick="checkAnswer()">Submit</button>
-
+                <div class="inputs">
+                    <input type="text" id="submitArea" name="submitArea" placeholder="Enter your guess...">
+                    <button id="submitButton" name="submitButton" onclick="checkAnswer()">Submit</button><br>
+                </div>
+            
                 <div class="feedback">
                     <p id="guessFeedback"></p>
                     <p>Last Game: <span id="lastGame">None</span></p>

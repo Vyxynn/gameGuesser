@@ -19,7 +19,7 @@ let data = [
     {name: ['Final Fantasy VII', 'Final Fantasy 7', 'Final Fantasy Seven', 'FF7', 'FF Seven', 'FF VII'], image: ['./assets/games/ff7/image1.jpg', './assets/games/ff7/image2.jpg', './assets/games/ff7/image3.jpg', './assets/games/ff7/image4.jpg', './assets/games/ff7/image5.jpg']},
     {name: ['Metal Gear Solid', 'MGS'], image: ['./assets/games/mgs/image1.jpg', './assets/games/mgs/image2.jpg', './assets/games/mgs/image3.jpg', './assets/games/mgs/image4.jpg', './assets/games/mgs/image5.jpg']},
     {name: ['BioShock'], image: ['./assets/games/bioshock/image1.jpg', './assets/games/bioshock/image2.jpg', './assets/games/bioshock/image3.jpg', './assets/games/bioshock/image4.jpg', './assets/games/bioshock/image5.jpg']},
-    {name: ["Uncharted 4: A Thief's End", "Uncharted 4", "Uncharted Four", "Uncharted Four: A Theif's End", "Uncharted 4: Theif's End", "Uncharted Four: Theif's End"], image: ['./assets/games/uncharted4/image1.jpg', './assets/games/uncharted4/image2.jpg', './assets/games/uncharted4/image3.jpg', './assets/games/uncharted4/image4.jpg', './assets/games/uncharted4/image5.jpg']},
+    {name: ["Uncharted 4: A Thief's End", "Uncharted 4", "Uncharted Four", "Uncharted Four: A Thief's End", "Uncharted 4: Theif's End", "Uncharted Four: Theif's End"], image: ['./assets/games/uncharted4/image1.jpg', './assets/games/uncharted4/image2.jpg', './assets/games/uncharted4/image3.jpg', './assets/games/uncharted4/image4.jpg', './assets/games/uncharted4/image5.jpg']},
     {name: ['Grand Theft Auto: San Andreas', 'GTA: San Andreas', 'San Andreas', 'GTA SA'], image: ['./assets/games/gtasa/image1.jpg', './assets/games/gtasa/image2.jpg', './assets/games/gtasa/image3.jpg', './assets/games/gtasa/image4.jpg', './assets/games/gtasa/image5.jpg']},
     {name: ['Super Mario World', 'SM World', 'SMW'], image: ['./assets/games/smworld/image1.jpg', './assets/games/smworld/image2.jpg', './assets/games/smworld/image3.jpg', './assets/games/smworld/image4.jpg', './assets/games/smworld/image5.jpg']},
     {name: ['Sekiro: Shadows Die Twice', 'Sekiro'], image: ['./assets/games/sekiro/image1.jpg', './assets/games/sekiro/image2.jpg', './assets/games/sekiro/image3.jpg', './assets/games/sekiro/image4.jpg', './assets/games/sekiro/image5.jpg']},
@@ -46,6 +46,7 @@ const rules = document.getElementById('rulesHide');
 const guessFeedback = document.getElementById('guessFeedback');
 const lastGame = document.getElementById('lastGame');
 const scoreContainer = document.getElementById('score');
+const guessesLeftContainer = document.getElementById('guessesLeft');
 
 let chosenGame;
 let unlockedHints = 0; //Max 4
@@ -83,6 +84,7 @@ function changeImage(side){
 
 function updateScreen(){
     //Update image display
+    console.log('Updated Screen');
     photoHTML = `
     <img src="${data[chosenGame].image[currentImage]}">
     `;
@@ -100,6 +102,9 @@ function updateScreen(){
     }
     //change the color of the current image to dark green
     button[currentImage].style.color = 'darkgreen';
+
+    //Update the Image Desc
+    guessesLeftContainer.innerHTML = availiableScore;
 }
 
 function checkAnswer(){
