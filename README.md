@@ -1,37 +1,59 @@
-# gameGuesser
+# Game Guesser
 
-`gameGuesser` is an interactive game where players try to guess the name of a game based on given images within a limited number of attempts. The game provides feedback on whether the guess is correct or incorrect, and displays the name of the last guessed game along with your score.
+Game Guesser is a web-based game where players guess the name of a game based on a series of images. The game provides hints in the form of images, and players can earn points by correctly guessing the game with fewer hints.
 
 ## Features
 
-- **Interactive Gameplay:** Users can enter guesses and receive feedback on whether it is correct or incorrect.
-- **Customizable Game Lists:** Add your own games to the data object in [script.js](script.js).
-- **Score Tracking:** Keep track of your score and see the last game you guessed.
-- **Game Images:** Each game has a 5 images that are displayed to help you guess the game.
+- Multiple games with multiple images for hints
+- Score tracking based on the number of hints used
+- Responsive design for different screen sizes
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
+### Prerequisites
 
+To run this project, you need a web browser that supports HTML, CSS, and JavaScript.
+
+### Installation
+
+1. Clone the repository to your local machine:
     ```bash
     git clone https://github.com/Vyxynn/gameGuesser.git
     ```
 
 2. Navigate to the project directory:
-
     ```bash
     cd gameGuesser
     ```
 
-## Usage
+3. Open `index.html` in your web browser to start the game.
 
-1. Open the `index.html` file in your web browser.
+### Usage
+
+1. When the game loads, an image from a randomly selected game will be displayed.
+2. Enter your guess for the name of the game in the input box and click "Submit" or press "Enter".
+3. If your guess is correct, your score will be updated, and a new game will be selected.
+4. If your guess is incorrect, a new hint (image) will be unlocked, and you can try again.
+5. Use the left and right arrows to navigate through the unlocked hints.
+6. The game will display your remaining guesses and current score.
+
+### Live Demo
+
+Check out the live demo of the game [here](https://vyxynn.github.io/gameGuesser).
 
 ## Contributing
 
-We welcome contributions to `gameGuesser`! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
 ## License
 
-This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE.md) file for details.
-``` ▋
+This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE.md) file for details.
