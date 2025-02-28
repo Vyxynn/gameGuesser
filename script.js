@@ -11,7 +11,7 @@ let data = [
     {name: ['The Elder Scrolls V: Skyrim', 'Elder Scrolls V: Skyrim', 'The Elder Scrolls Five: Skyrim', 'Elder Scrolls Five: Skyrim', 'Skyrim'], image: ['./assets/games/skyrim/image1.jpg', './assets/games/skyrim/image2.jpg', './assets/games/skyrim/image3.jpg', './assets/games/skyrim/image4.jpg', './assets/games/skyrim/image5.jpg']},
     {name: ['Red Dead Redemption 2', 'Red Dead Redemption Two', 'RDR2'], image: ['./assets/games/rdr2/image1.jpg', './assets/games/rdr2/image2.jpg', './assets/games/rdr2/image3.jpg', './assets/games/rdr2/image4.jpg', './assets/games/rdr2/image5.jpg']},
     {name: ['The Last of Us', 'Last of Us', 'TLOU'], image: ['./assets/games/lou/image1.jpg', './assets/games/lou/image2.jpg', './assets/games/lou/image3.jpg', './assets/games/lou/image4.jpg', './assets/games/lou/image5.jpg']},
-    {name: ['Dark Souls'm 'DS'], image: ['./assets/games/darksouls/image1.jpg', './assets/games/darksouls/image2.jpg', './assets/games/darksouls/image3.jpg', './assets/games/darksouls/image4.jpg', './assets/games/darksouls/image5.jpg']},
+    {name: ['Dark Souls', 'DS'], image: ['./assets/games/darksouls/image1.jpg', './assets/games/darksouls/image2.jpg', './assets/games/darksouls/image3.jpg', './assets/games/darksouls/image4.jpg', './assets/games/darksouls/image5.jpg']},
     {name: ['Halo: Combat Evolved', 'Halo: CE', 'HCE'], image: ['./assets/games/haloce/image1.jpg', './assets/games/haloce/image2.jpg', './assets/games/haloce/image3.jpg', './assets/games/haloce/image4.jpg', './assets/games/haloce/image5.jpg']},
     {name: ['Portal 2', 'Portal Two', 'P2'], image: ['./assets/games/portal2/image1.jpg', './assets/games/portal2/image2.jpg', './assets/games/portal2/image3.jpg', './assets/games/portal2/image4.jpg', './assets/games/portal2/image5.jpg']},
     {name: ['Chrono Trigger', 'CT'], image: ['./assets/games/chronotrigger/image1.jpg', './assets/games/chronotrigger/image2.jpg', './assets/games/chronotrigger/image3.jpg', './assets/games/chronotrigger/image4.jpg', './assets/games/chronotrigger/image5.jpg']},
@@ -82,11 +82,11 @@ function changeImage(side){
     }
 }
 
-function updateScreen(){
-    //Update image display
+function updateScreen() {
+    // Update image display
     console.log('Updated Screen');
     photoHTML = `
-    <img src="${data[chosenGame].image[currentImage]}">
+    <img src="${data[chosenGame].image[currentImage]}" style="width: auto; height: 350px;">
     `;
     photo.innerHTML = photoHTML;
     scoreContainer.innerHTML = totalScore;
@@ -191,4 +191,3 @@ inputArea.addEventListener("keypress", function(event) {
 function rng(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-  
