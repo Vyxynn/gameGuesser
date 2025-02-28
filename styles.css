@@ -44,7 +44,7 @@ body{
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-#submitArea, #submitButton{
+#submitArea, #submitButton, #reloadButton{
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -67,25 +67,46 @@ body{
     border-radius: 15px;
 }
 
-#photoScroll{
+#photoDesc{
     background-color: rgb(114, 114, 114);
     border-radius: 15px;
     width: 90%;
     height: 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#photoDesc > *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.guesses{
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.reset{
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #photo > img{
     aspect-ratio: 16/9;
     height: 350px;
     border: 3px solid black;
-}
-
-#photoScroll{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
 }
 
 #leftButton, #rightButton{
@@ -135,9 +156,22 @@ footer{
     
 }
 
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.guesses{
+    gap: 10px;
+}
+
 @media only screen and (max-width:1100px){
     .gameContainer{
         width: 100vw;
+        max-height: 900px   ;
     }
 
     .container{
