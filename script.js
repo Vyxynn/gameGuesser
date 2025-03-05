@@ -117,7 +117,81 @@ let data = [
 
     {name: ['Call of Duty: Modern Warfare', 'Call of Duty: MW', 'CoD: MW', 'CoD: Modern Warfare', 'CoD: MW (2019)', 'CoD: Modern Warfare (2019)', 'CoD: MW 2019', 'CoD: Modern Warfare 2019'], image: ['./assets/games/codmw/image1.jpg', './assets/games/codmw/image2.jpg', './assets/games/codmw/image3.jpg', './assets/games/codmw/image4.jpg', './assets/games/codmw/image5.jpg']},
 
-    {name: ['Gears of War', 'GoW'], image: ['./assets/games/gow/image1.jpg', './assets/games/gow/image2.jpg', './assets/games/gow/image3.jpg', './assets/games/gow/image4.jpg', './assets/games/gow/image5.jpg']}
+    {name: ['Gears of War', 'GoW'], image: ['./assets/games/gow/image1.jpg', './assets/games/gow/image2.jpg', './assets/games/gow/image3.jpg', './assets/games/gow/image4.jpg', './assets/games/gow/image5.jpg']},
+
+    {name: ['Shadow of the Colossus', 'SotC'], image: ['./assets/games/sotc/image1.jpg', './assets/games/sotc/image2.jpg', './assets/games/sotc/image3.jpg', './assets/games/sotc/image4.jpg', './assets/games/sotc/image5.jpg']},
+
+    {name: ['Nier: Automata', 'Nier Automata', 'NA'], image: ['./assets/games/nierAuto/image1.jpg', './assets/games/nierAuto/image2.jpg', './assets/games/nierAuto/image3.jpg', './assets/games/nierAuto/image4.jpg', './assets/games/nierAuto/image5.jpg']},
+
+    {name: ['Mega Man 2', 'MM2'], image: ['./assets/games/mm2/image1.jpg', './assets/games/mm2/image2.jpg', './assets/games/mm2/image3.jpg', './assets/games/mm2/image4.jpg', './assets/games/mm2/image5.jpg']},
+
+    {name: ['The Elder Scrolls III: Morrowind', 'Elder Scrolls III: Morrowind', 'The Elder Scrolls Three: Morrowind', 'Elder Scrolls Three: Morrowind', 'Morrowind'], image: ['./assets/games/morrowind/image1.jpg', './assets/games/morrowind/image2.jpg', './assets/games/morrowind/image3.jpg', './assets/games/morrowind/image4.jpg', './assets/games/morrowind/image5.jpg']},
+
+    {name: ['Crash Bandicoot: Warped', 'Crash Bandicoot 3: Warped', 'Crash Bandicoot Three: Warped', 'Crash Bandicoot Three', 'Crash Bandicoot 3', 'CB3W', 'CB3', 'CBW'], image: ['./assets/games/cbw/image1.jpg', './assets/games/cbw/image2.jpg', './assets/games/cbw/image3.jpg', './assets/games/cbw/image4.jpg', './assets/games/cbw/image5.jpg']},
+
+    {name: ['The Elder Scrolls IV: Oblivion', 'Elder Scrolls IV: Oblivion', 'The Elder Scrolls Four: Oblivion', 'Elder Scrolls Four: Oblivion', 'Oblivion'], image: ['./assets/games/oblivion/image1.jpg', './assets/games/oblivion/image2.jpg', './assets/games/oblivion/image3.jpg', './assets/games/oblivion/image4.jpg', './assets/games/oblivion/image5.jpg']},
+
+    {name: ['Duck Hunt', 'DH'], image: ['./assets/games/duckhunt/image1.jpg', './assets/games/duckhunt/image2.jpg', './assets/games/duckhunt/image3.jpg', './assets/games/duckhunt/image4.jpg', './assets/games/duckhunt/image5.jpg']},
+
+    {name: ['Mega Man X', 'MMX'], image: ['./assets/games/mmx/image1.jpg', './assets/games/mmx/image2.jpg', './assets/games/mmx/image3.jpg', './assets/games/mmx/image4.jpg', './assets/games/mmx/image5.jpg']},
+
+    {name: ['Fable II', 'Fable 2', 'F2'], image: ['./assets/games/fable2/image1.jpg', './assets/games/fable2/image2.jpg', './assets/games/fable2/image3.jpg', './assets/games/fable2/image4.jpg', './assets/games/fable2/image5.jpg']},
+
+    {name: ['Bastion'], image: ['./assets/games/bastion/image1.jpg', './assets/games/bastion/image2.jpg', './assets/games/bastion/image3.jpg', './assets/games/bastion/image4.jpg', './assets/games/bastion/image5.jpg']},
+
+    {name: ['Outer Worlds', 'The Outer Worlds', 'OW'], image: ['./assets/games/outerworlds/image1.jpg', './assets/games/outerworlds/image2.jpg', './assets/games/outerworlds/image3.jpg', './assets/games/outerworlds/image4.jpg', './assets/games/outerworlds/image5.jpg']},
+
+    {name: ['Diablo III', 'Diablo 3', 'D3', 'D Three'], image: ['./assets/games/diablo3/image1.jpg', './assets/games/diablo3/image2.jpg', './assets/games/diablo3/image3.jpg', './assets/games/diablo3/image4.jpg', './assets/games/diablo3/image5.jpg']},
+
+    {name: ['Super Mario Kart', 'SMK'], image: ['./assets/games/smk/image1.jpg', './assets/games/smk/image2.jpg', './assets/games/smk/image3.jpg', './assets/games/smk/image4.jpg', './assets/games/smk/image5.jpg']},
+
+    {name: ['Silent Hill 2', 'SH2'], image: ['./assets/games/sh2/image1.jpg', './assets/games/sh2/image2.jpg', './assets/games/sh2/image3.jpg', './assets/games/sh2/image4.jpg', './assets/games/sh2/image5.jpg']},
+
+    {name: ['The Secret of Monkey Island', 'Monkey Island', 'SoMI'], image: ['./assets/games/monkeyisland/image1.jpg', './assets/games/monkeyisland/image2.jpg', './assets/games/monkeyisland/image3.jpg', './assets/games/monkeyisland/image4.jpg', './assets/games/monkeyisland/image5.jpg']},
+
+    {name: ['Grim Fandango', 'GF'], image: ['./assets/games/grimfandango/image1.jpg', './assets/games/grimfandango/image2.jpg', './assets/games/grimfandango/image3.jpg', './assets/games/grimfandango/image4.jpg', './assets/games/grimfandango/image5.jpg']},
+
+    {name: ['Rocket League', 'RL'], image: ['./assets/games/rl/image1.jpg', './assets/games/rl/image2.jpg', './assets/games/rl/image3.jpg', './assets/games/rl/image4.jpg', './assets/games/rl/image5.jpg']},
+
+    {name: ['Monster Hunter: World', 'Monster Hunter World', 'MHW'], image: ['./assets/games/mhw/image1.jpg', './assets/games/mhw/image2.jpg', './assets/games/mhw/image3.jpg', './assets/games/mhw/image4.jpg', './assets/games/mhw/image5.jpg']},
+
+    {name: ['Apex Legends', 'AL', 'Apex'], image: ['./assets/games/apexlegends/image1.jpg', './assets/games/apexlegends/image2.jpg', './assets/games/apexlegends/image3.jpg', './assets/games/apexlegends/image4.jpg', './assets/games/apexlegends/image5.jpg']},
+
+    {name: ['Super Mario Galaxy', 'SMG'], image: ['./assets/games/smg/image1.jpg', './assets/games/smg/image2.jpg', './assets/games/smg/image3.jpg', './assets/games/smg/image4.jpg', './assets/games/smg/image5.jpg']},
+
+    {name: ['Portal', 'P1'], image: ['./assets/games/portal/image1.jpg', './assets/games/portal/image2.jpg', './assets/games/portal/image3.jpg', './assets/games/portal/image4.jpg', './assets/games/portal/image5.jpg']},
+
+    {name: ['Elite Dangerous', 'ED'], image: ['./assets/games/ed/image1.jpg', './assets/games/ed/image2.jpg', './assets/games/ed/image3.jpg', './assets/games/ed/image4.jpg', './assets/games/ed/image5.jpg']},
+
+    {name: ['Dragon Age: Inquisition', 'Dragon Age Inquisition', 'DAI'], image: ['./assets/games/dai/image1.jpg', './assets/games/dai/image2.jpg', './assets/games/dai/image3.jpg', './assets/games/dai/image4.jpg', './assets/games/dai/image5.jpg']},
+
+    {name: ['World of Warcraft', 'WoW'], image: ['./assets/games/wow/image1.jpg', './assets/games/wow/image2.jpg', './assets/games/wow/image3.jpg', './assets/games/wow/image4.jpg', './assets/games/wow/image5.jpg']},
+
+    {name: ['Halo: Reach', 'Halo Reach', 'HR'], image: ['./assets/games/haloreach/image1.jpg', './assets/games/haloreach/image2.jpg', './assets/games/haloreach/image3.jpg', './assets/games/haloreach/image4.jpg', './assets/games/haloreach/image5.jpg']},
+
+    {name: ['Persona 4 Golden', 'Persona Four Golden', 'P4G'], image: ['./assets/games/p4g/image1.jpg', './assets/games/p4g/image2.jpg', './assets/games/p4g/image3.jpg', './assets/games/p4g/image4.jpg', './assets/games/p4g/image5.jpg']},
+
+    {name: ['Donkey Kong Country', 'DKC'], image: ['./assets/games/dkc/image1.jpg', './assets/games/dkc/image2.jpg', './assets/games/dkc/image3.jpg', './assets/games/dkc/image4.jpg', './assets/games/dkc/image5.jpg']},
+
+    {name: ['Mortal Kombat II', 'Mortal Kombat 2', 'MKII', 'MK2'], image: ['./assets/games/mk2/image1.jpg', './assets/games/mk2/image2.jpg', './assets/games/mk2/image3.jpg', './assets/games/mk2/image4.jpg', './assets/games/mk2/image5.jpg']},
+
+    {name: ['Shenmue II', 'Shenmue 2', 'S2'], image: ['./assets/games/shenmue2/image1.jpg', './assets/games/shenmue2/image2.jpg', './assets/games/shenmue2/image3.jpg', './assets/games/shenmue2/image4.jpg', './assets/games/shenmue2/image5.jpg']},
+
+    {name: ['Kingdom Hearts II', 'Kingdom Hearts 2', 'KHII', 'KH2'], image: ['./assets/games/kh2/image1.jpg', './assets/games/kh2/image2.jpg', './assets/games/kh2/image3.jpg', './assets/games/kh2/image4.jpg', './assets/games/kh2/image5.jpg']},
+
+    {name: ['Ninja Gaiden (2004)', 'Ninja Gaiden 2004', 'NG', 'Ninja Gaiden', 'NG04'], image: ['./assets/games/ng/image1.jpg', './assets/games/ng/image2.jpg', './assets/games/ng/image3.jpg', './assets/games/ng/image4.jpg', './assets/games/ng/image5.jpg']},
+
+    {name: ['Resident Evil 2 (Remake)', 'Resident Evil Two (Remake)', 'RE2R', 'RE2 Remake', 'Resident Evil 2', 'RE2', 'Resident Evil Two'], image: ['./assets/games/re2/image1.jpg', './assets/games/re2/image2.jpg', './assets/games/re2/image3.jpg', './assets/games/re2/image4.jpg', './assets/games/re2/image5.jpg']},
+
+    {name: ['Tomb Raider (2013)', 'Tomb Raider 2013', 'TR', 'Tomb Raider'], image: ['./assets/games/tr/image1.jpg', './assets/games/tr/image2.jpg', './assets/games/tr/image3.jpg', './assets/games/tr/image4.jpg', './assets/games/tr/image5.jpg']},
+
+    {name: ['BioShock 2', 'BS2'], image: ['./assets/games/bs2/image1.jpg', './assets/games/bs2/image2.jpg', './assets/games/bs2/image3.jpg', './assets/games/bs2/image4.jpg', './assets/games/bs2/image5.jpg']},
+
+    {name: ['Warcraft III: Reign of Chaos', 'Warcraft III', 'Warcraft 3', 'WC3', 'WCIII', 'WC3RoC', 'W3CRC'], image: ['./assets/games/wc3/image1.jpg', './assets/games/wc3/image2.jpg', './assets/games/wc3/image3.jpg', './assets/games/wc3/image4.jpg', './assets/games/wc3/image5.jpg']},
+
+    {name: ['Final Fantasy IX', 'Final Fantasy 9', 'Final Fantasy Nine', 'FFIX', 'FF Nine', 'FF 9'], image: ['./assets/games/ff9/image1.jpg', './assets/games/ff9/image2.jpg', './assets/games/ff9/image3.jpg', './assets/games/ff9/image4.jpg', './assets/games/ff9/image5.jpg']},
+
+    {name: ['World of Goo', 'WoG', 'WG'], image: ['./assets/games/wog/image1.jpg', './assets/games/wog/image2.jpg', './assets/games/wog/image3.jpg', './assets/games/wog/image4.jpg', './assets/games/wog/image5.jpg']}
 ];
 
 const photo = document.getElementById('photo');
