@@ -1,28 +1,4 @@
 
-Castlevania: Symphony of the Night
-Super Mario Odyssey
-Street Fighter II
-Bioshock Infinite
-Final Fantasy X
-The Last of Us Part II
-Spelunky 2
-Spelunky
-Metroid Prime
-Civilization VI
-Red Dead Redemption
-StarCraft II
-Worms Armageddon
-Dark Souls III
-Counter-Strike: Global Offensive
-Fallout: New Vegas
-Hitman 2 (2018)
-The Witcher 2: Assassins of Kings
-Diablo II
-Fortnite
-Journey
-Minecraft Dungeons
-Call of Duty: Modern Warfare (2019)
-Gears of War
 Shadow of the Colossus
 Nier: Automata
 Mega Man 2
@@ -33,8 +9,7 @@ Duck Hunt
 Mega Man X
 Fable II
 Bastion
-Outer Worlds
-Minecraft VR
+Outer WorldsR
 Diablo III
 Super Mario Kart
 Silent Hill 2
@@ -61,5 +36,4 @@ Tomb Raider (2013)
 BioShock 2
 Warcraft III: Reign of Chaos
 Final Fantasy IX
-Lunar: Silver Star Story
 World of Goo
