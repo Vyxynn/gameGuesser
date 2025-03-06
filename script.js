@@ -191,7 +191,17 @@ let data = [
 
     {name: ['Final Fantasy IX', 'Final Fantasy 9', 'Final Fantasy Nine', 'FFIX', 'FF Nine', 'FF 9'], image: ['./assets/games/ff9/image1.jpg', './assets/games/ff9/image2.jpg', './assets/games/ff9/image3.jpg', './assets/games/ff9/image4.jpg', './assets/games/ff9/image5.jpg']},
 
-    {name: ['World of Goo', 'WoG', 'WG'], image: ['./assets/games/wog/image1.jpg', './assets/games/wog/image2.jpg', './assets/games/wog/image3.jpg', './assets/games/wog/image4.jpg', './assets/games/wog/image5.jpg']}
+    {name: ['World of Goo', 'WoG', 'WG'], image: ['./assets/games/wog/image1.jpg', './assets/games/wog/image2.jpg', './assets/games/wog/image3.jpg', './assets/games/wog/image4.jpg', './assets/games/wog/image5.jpg']},
+
+    {name: ['Terraria'], image: ['./assets/games/terraria/image1.jpg', './assets/games/terraria/image2.jpg', './assets/games/terraria/image3.jpg', './assets/games/terraria/image4.jpg', './assets/games/terraria/image5.jpg']},
+
+    {name: ['Celeste'], image: ['./assets/games/celeste/image1.jpg', './assets/games/celeste/image2.jpg', './assets/games/celeste/image3.jpg', './assets/games/celeste/image4.jpg', './assets/games/celeste/image5.jpg']},
+
+    {name: ['Signalis'], image: ['./assets/games/signalis/image1.jpg', './assets/games/signalis/image2.jpg', './assets/games/signalis/image3.jpg', './assets/games/signalis/image4.jpg', './assets/games/signalis/image5.jpg']},
+
+    {name: ['ULTRAKILL'], image: ['./assets/games/ultrakill/image1.jpg', './assets/games/ultrakill/image2.jpg', './assets/games/ultrakill/image3.jpg', './assets/games/ultrakill/image4.jpg', './assets/games/ultrakill/image5.jpg']},
+
+    {name: ['Stardew Valley', 'SV'], image: ['./assets/games/sv/image1.jpg', './assets/games/sv/image2.jpg', './assets/games/sv/image3.jpg', './assets/games/sv/image4.jpg', './assets/games/sv/image5.jpg']}
 ];
 
 const photo = document.getElementById('photo');
