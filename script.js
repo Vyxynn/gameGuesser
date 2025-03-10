@@ -184,11 +184,12 @@ function checkAnswer(){
 //Make the submit button be pressed when the user clicks enter
 inputArea.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-      document.getElementById("submitButton").click();
+        document.getElementById("submitButton").click();
     }
-  }); 
+}); 
 
 function rng(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-  
+}
+
+
