@@ -85,17 +85,11 @@ let data = [
 
     {name: ['Spelunky 2', 'Spelunky Two', 'S2'], image: ['./assets/games/spelunky2/image1.jpg', './assets/games/spelunky2/image2.jpg', './assets/games/spelunky2/image3.jpg', './assets/games/spelunky2/image4.jpg', './assets/games/spelunky2/image5.jpg']},
 
-    {name: ['Spelunky', 'S1'], image: ['./assets/games/spelunky/image1.jpg', './assets/games/spelunky/image2.jpg', './assets/games/spelunky/image3.jpg', './assets/games/spelunky/image4.jpg', './assets/games/spelunky/image5.jpg']},
-
     {name: ['Metroid Prime', 'MP', 'MP1'], image: ['./assets/games/metroidprime/image1.jpg', './assets/games/metroidprime/image2.jpg', './assets/games/metroidprime/image3.jpg', './assets/games/metroidprime/image4.jpg', './assets/games/metroidprime/image5.jpg']},
 
     {name: ['Civilization VI', 'Civilization 6', 'Civ VI', 'Civ 6'], image: ['./assets/games/civ6/image1.jpg', './assets/games/civ6/image2.jpg', './assets/games/civ6/image3.jpg', './assets/games/civ6/image4.jpg', './assets/games/civ6/image5.jpg']},
 
     {name: ['Red Dead Redemption', 'Red Dead Redemption One', 'RDR', 'RDR1'], image: ['./assets/games/rdr/image1.jpg', './assets/games/rdr/image2.jpg', './assets/games/rdr/image3.jpg', './assets/games/rdr/image4.jpg', './assets/games/rdr/image5.jpg']},
-
-    {name: ['StarCraft II', 'StarCraft 2', 'SCII', 'SC2'], image: ['./assets/games/starcraft2/image1.jpg', './assets/games/starcraft2/image2.jpg', './assets/games/starcraft2/image3.jpg', './assets/games/starcraft2/image4.jpg', './assets/games/starcraft2/image5.jpg']},
-
-    {name: ['Worms Armageddon', 'Worms: Armageddon', 'WA'], image: ['./assets/games/wormsarma/image1.jpg', './assets/games/wormsarma/image2.jpg', './assets/games/wormsarma/image3.jpg', './assets/games/wormsarma/image4.jpg', './assets/games/wormsarma/image5.jpg']},
 
     {name: ['Dark Souls III', 'Dark Souls 3', 'DS3', 'DS Three'], image: ['./assets/games/ds3/image1.jpg', './assets/games/ds3/image2.jpg', './assets/games/ds3/image3.jpg', './assets/games/ds3/image4.jpg', './assets/games/ds3/image5.jpg']},
 
@@ -135,10 +129,6 @@ let data = [
 
     {name: ['Mega Man X', 'MMX'], image: ['./assets/games/mmx/image1.jpg', './assets/games/mmx/image2.jpg', './assets/games/mmx/image3.jpg', './assets/games/mmx/image4.jpg', './assets/games/mmx/image5.jpg']},
 
-    {name: ['Fable II', 'Fable 2', 'F2'], image: ['./assets/games/fable2/image1.jpg', './assets/games/fable2/image2.jpg', './assets/games/fable2/image3.jpg', './assets/games/fable2/image4.jpg', './assets/games/fable2/image5.jpg']},
-
-    {name: ['Bastion'], image: ['./assets/games/bastion/image1.jpg', './assets/games/bastion/image2.jpg', './assets/games/bastion/image3.jpg', './assets/games/bastion/image4.jpg', './assets/games/bastion/image5.jpg']},
-
     {name: ['Outer Worlds', 'The Outer Worlds', 'OW'], image: ['./assets/games/outerworlds/image1.jpg', './assets/games/outerworlds/image2.jpg', './assets/games/outerworlds/image3.jpg', './assets/games/outerworlds/image4.jpg', './assets/games/outerworlds/image5.jpg']},
 
     {name: ['Diablo III', 'Diablo 3', 'D3', 'D Three'], image: ['./assets/games/diablo3/image1.jpg', './assets/games/diablo3/image2.jpg', './assets/games/diablo3/image3.jpg', './assets/games/diablo3/image4.jpg', './assets/games/diablo3/image5.jpg']},
@@ -161,8 +151,6 @@ let data = [
 
     {name: ['Portal', 'P1'], image: ['./assets/games/portal/image1.jpg', './assets/games/portal/image2.jpg', './assets/games/portal/image3.jpg', './assets/games/portal/image4.jpg', './assets/games/portal/image5.jpg']},
 
-    {name: ['Elite Dangerous', 'ED'], image: ['./assets/games/ed/image1.jpg', './assets/games/ed/image2.jpg', './assets/games/ed/image3.jpg', './assets/games/ed/image4.jpg', './assets/games/ed/image5.jpg']},
-
     {name: ['Dragon Age: Inquisition', 'Dragon Age Inquisition', 'DAI'], image: ['./assets/games/dai/image1.jpg', './assets/games/dai/image2.jpg', './assets/games/dai/image3.jpg', './assets/games/dai/image4.jpg', './assets/games/dai/image5.jpg']},
 
     {name: ['World of Warcraft', 'WoW'], image: ['./assets/games/wow/image1.jpg', './assets/games/wow/image2.jpg', './assets/games/wow/image3.jpg', './assets/games/wow/image4.jpg', './assets/games/wow/image5.jpg']},
@@ -175,8 +163,6 @@ let data = [
 
     {name: ['Mortal Kombat II', 'Mortal Kombat 2', 'MKII', 'MK2'], image: ['./assets/games/mk2/image1.jpg', './assets/games/mk2/image2.jpg', './assets/games/mk2/image3.jpg', './assets/games/mk2/image4.jpg', './assets/games/mk2/image5.jpg']},
 
-    {name: ['Shenmue II', 'Shenmue 2', 'S2'], image: ['./assets/games/shenmue2/image1.jpg', './assets/games/shenmue2/image2.jpg', './assets/games/shenmue2/image3.jpg', './assets/games/shenmue2/image4.jpg', './assets/games/shenmue2/image5.jpg']},
-
     {name: ['Kingdom Hearts II', 'Kingdom Hearts 2', 'KHII', 'KH2'], image: ['./assets/games/kh2/image1.jpg', './assets/games/kh2/image2.jpg', './assets/games/kh2/image3.jpg', './assets/games/kh2/image4.jpg', './assets/games/kh2/image5.jpg']},
 
     {name: ['Ninja Gaiden (2004)', 'Ninja Gaiden 2004', 'NG', 'Ninja Gaiden', 'NG04'], image: ['./assets/games/ng/image1.jpg', './assets/games/ng/image2.jpg', './assets/games/ng/image3.jpg', './assets/games/ng/image4.jpg', './assets/games/ng/image5.jpg']},
@@ -187,11 +173,7 @@ let data = [
 
     {name: ['BioShock 2', 'BS2'], image: ['./assets/games/bs2/image1.jpg', './assets/games/bs2/image2.jpg', './assets/games/bs2/image3.jpg', './assets/games/bs2/image4.jpg', './assets/games/bs2/image5.jpg']},
 
-    {name: ['Warcraft III: Reign of Chaos', 'Warcraft III', 'Warcraft 3', 'WC3', 'WCIII', 'WC3RoC', 'W3CRC'], image: ['./assets/games/wc3/image1.jpg', './assets/games/wc3/image2.jpg', './assets/games/wc3/image3.jpg', './assets/games/wc3/image4.jpg', './assets/games/wc3/image5.jpg']},
-
     {name: ['Final Fantasy IX', 'Final Fantasy 9', 'Final Fantasy Nine', 'FFIX', 'FF Nine', 'FF 9'], image: ['./assets/games/ff9/image1.jpg', './assets/games/ff9/image2.jpg', './assets/games/ff9/image3.jpg', './assets/games/ff9/image4.jpg', './assets/games/ff9/image5.jpg']},
-
-    {name: ['World of Goo', 'WoG', 'WG'], image: ['./assets/games/wog/image1.jpg', './assets/games/wog/image2.jpg', './assets/games/wog/image3.jpg', './assets/games/wog/image4.jpg', './assets/games/wog/image5.jpg']},
 
     {name: ['Terraria'], image: ['./assets/games/terraria/image1.jpg', './assets/games/terraria/image2.jpg', './assets/games/terraria/image3.jpg', './assets/games/terraria/image4.jpg', './assets/games/terraria/image5.jpg']},
 
