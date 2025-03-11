@@ -1,59 +1,104 @@
-# Game Guesser
+# GAME GUESSER
 
-Game Guesser is a web-based game where players guess the name of a game based on a series of images. The game provides hints in the form of images, and players can earn points by correctly guessing the game with fewer hints.
+## DESCRIPTION
+A simple game where the player tries to guess the name of a game based on a series of images. The player has a limited number of guesses, and each incorrect guess unlocks a new hint image.
 
-## Features
+## HOW TO PLAY
+1. Enter the name of the game in the input field
+2. Click the "Submit" button or press Enter
+3. Read the feedback to know if your guess was correct or incorrect
+4. If incorrect, a new hint image will be unlocked
+5. Use the left and right arrow buttons to navigate through the hint images
+6. Keep guessing until you find the correct game name
 
-- Multiple games with multiple images for hints
-- Score tracking based on the number of hints used
-- Responsive design for different screen sizes
+## TECHNOLOGIES USED
+- HTML5
+- CSS3
+- JavaScript
 
-## Getting Started
+## FEATURES
+- Random game selection
+- Input validation
+- Visual feedback
+- Hint image navigation
+- Score tracking
 
-### Prerequisites
+## PROJECT STRUCTURE
+The project consists of three files:
+- **index.html** - Contains the structure of the game
+- **styles.css** - Contains the styling of the game
+- **script.js** - Contains the game logic
 
-To run this project, you need a web browser that supports HTML, CSS, and JavaScript.
+## CODE EXAMPLE
+```javascript
+function checkAnswer() {
+    const userGuess = inputArea.value.toLowerCase().replace(/\s|:|-|'/g, '');
+    for (let i = 0; i < data[chosenGame].name.length; i++) {
+        let answer = data[chosenGame].name[i].toLowerCase().replace(/\s|:|-|'/g, '');
+        if (userGuess === answer) {
+            guessFeedback.innerHTML = 'Correct';
+            guessFeedback.style.color = 'green';
+            totalScore += availiableScore;
+            updateScreen();
+            return;
+        }
+    }
+    availiableScore--;
+    guessFeedback.innerHTML = 'Incorrect';
+    guessFeedback.style.color = 'red';
+    unlockedHints++;
+    currentImage++;
+    updateScreen();
+}
+```
 
-### Installation
+### Explanation of the `checkAnswer` Function
 
-1. Clone the repository to your local machine:
-    ```bash
-    git clone https://github.com/Vyxynn/gameGuesser.git
+The `checkAnswer` function is designed to validate a user's guess against a list of possible correct answers and provide feedback accordingly. Here's a step-by-step breakdown of what the function does:
+
+1. **Retrieve User Input**:
+    ```javascript
+    const userGuess = inputArea.value.toLowerCase().replace(/\s|:|-|'/g, '');
     ```
+    - The function retrieves the user's guess from an input field (`inputArea`).
+    - It converts the guess to lowercase and removes any spaces, colons, hyphens, and apostrophes to standardize the input.
 
-2. Navigate to the project directory:
-    ```bash
-    cd gameGuesser
+2. **Loop Through Possible Answers**:
+    ```javascript
+    for (let i = 0; i < data[chosenGame].name.length; i++) {
+        let answer = data[chosenGame].name[i].toLowerCase().replace(/\s|:|-|'/g, '');
     ```
+    - The function iterates through an array of possible correct answers (`data[chosenGame].name`).
+    - Each answer is also converted to lowercase and standardized by removing spaces, colons, hyphens, and apostrophes.
 
-3. Open `index.html` in your web browser to start the game.
+3. **Check for a Match**:
+    ```javascript
+    if (userGuess === answer) {
+        guessFeedback.innerHTML = 'Correct';
+        guessFeedback.style.color = 'green';
+        totalScore += availiableScore;
+        updateScreen();
+        return;
+    }
+    ```
+    - If the user's guess matches any of the possible answers, the function:
+        - Updates the feedback element (`guessFeedback`) to display "Correct" in green.
+        - Increases the total score by the available score (`availiableScore`).
+        - Calls the `updateScreen` function to refresh the display.
+        - Exits the function early using `return`.
 
-### Usage
-
-1. When the game loads, an image from a randomly selected game will be displayed.
-2. Enter your guess for the name of the game in the input box and click "Submit" or press "Enter".
-3. If your guess is correct, your score will be updated, and a new game will be selected.
-4. If your guess is incorrect, a new hint (image) will be unlocked, and you can try again.
-5. Use the left and right arrows to navigate through the unlocked hints.
-6. The game will display your remaining guesses and current score.
-
-### Live Demo
-
-Check out the live demo of the game [here](https://vyxynn.github.io/gameGuesser).
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-### Steps to Contribute
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
-## License
-
-This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE.md) file for details.
+4. **Handle Incorrect Guess**:
+    ```javascript
+    availiableScore--;
+    guessFeedback.innerHTML = 'Incorrect';
+    guessFeedback.style.color = 'red';
+    unlockedHints++;
+    currentImage++;
+    updateScreen();
+    ```
+    - If no match is found after the loop, the function:
+        - Decreases the available score by one.
+        - Updates the feedback element to display "Incorrect" in red.
+        - Increments the number of unlocked hints.
+        - Advances to the next image.
+        - Calls the `updateScreen` function to refresh the display.
